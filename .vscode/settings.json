@@ -1,0 +1,44 @@
+{
+
+
+
+    //
+    // VS Code internal settings:
+    //
+
+    // auto-save files:
+    "files.autoSave": "afterDelay",
+
+    // render new lines as github:
+    "markdown.preview.breaks": true,
+
+
+
+    //
+    // Paste Image extension settings:
+    //
+
+    // show the file path prior to saving the file to disk:
+    "pasteImage.showFilePathConfirmInputBox": true,
+
+    // the following generates the name of image as "/.images/pi-2021-02-15-14-45-52.780.png":
+    "pasteImage.defaultName": "Y-MM-DD-HH-mm-ss.SSS",
+    "pasteImage.namePrefix": "pi-",
+    "pasteImage.path": "${projectRoot}/.images",
+
+    // the following generates the image link as "![](/.images/pi-2021-02-15-14-45-52.780.png)":
+    "pasteImage.basePath": "${projectRoot}",
+    "pasteImage.prefix": "/",
+
+
+
+    //
+    // Markdown All in One extension settings:
+    //
+
+    // exclude the highest level header from table of content:
+    "markdown.extension.toc.levels": "2..6",
+
+
+
+}
