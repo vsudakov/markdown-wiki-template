@@ -68,7 +68,7 @@ ln --symbolic ../../.images/untrack-unused-images.sh .git/hooks/pre-commit
 
 For [VS Code](https://code.visualstudio.com/) plenty of settings and extensions are available to simplify work with Markdown. The below is the list of the selected settings/extensions.
 
-EXTENSIONS ARE NOT INSTALLED AUTOMATICALLY - each extension needs to be installed separately. But the configuration for each extension is applied automatically.
+EXTENSIONS ARE NOT INSTALLED AUTOMATICALLY - each extension needs to be installed individually. But the configuration for each extension is applied automatically.
 
 Proposed VS Code **workspace** settings are located in [/.vscode/settings.json](/.vscode/settings.json). These settings include both vs-code-internal and extenstion-specific settings.
 
@@ -83,6 +83,8 @@ You may remove [/.vscode/](/.vscode/) directory if you don't use VS Code.
 
 home page: [https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image](https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image)
 
+installation from command palette (`Ctrl + P`): `ext install mushan.vscode-paste-image`
+
 allows pasting images from the clipboard directly into Markdown document by pressing `Ctrl + Alt + V` (by default).
 
 Every image is automatically saved in `/.images/` directory using an automatically-generated name and the project-root-related-link to that is pasted in the current markdown document.
@@ -93,6 +95,8 @@ Preferences for this extension: [/.vscode/settings.json#L17-L31](/.vscode/settin
 
 home page: [https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 
+installation from command palette (`Ctrl + P`): `ext install yzhang.markdown-all-in-one`
+
 among those numerous features what this extension provides - there is one extra useful to generate/update a table of content.
 
 Preferences for this extension: [/.vscode/settings.json#L35-L40](/.vscode/settings.json#L35-L40)
@@ -100,5 +104,7 @@ Preferences for this extension: [/.vscode/settings.json#L35-L40](/.vscode/settin
 ### "markdownlint" extension
 
 home page: [https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+
+installation from command palette (`Ctrl + P`): `ext install DavidAnson.vscode-markdownlint`
 
 aforementioned [markdownlint style checker](#markdownlint) is available as [a plugin for VS Code](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint).
