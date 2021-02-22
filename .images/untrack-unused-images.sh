@@ -17,7 +17,7 @@ while read file; do
         git rm --cached "${file}"
 
         if [[ "${TO_REMOVE_FROM_FS}" == 'true' ]]; then
-            rm --force "${file}"
+            rm --force --verbose "${file}"
         fi
 
     fi
