@@ -32,7 +32,7 @@ You may remove `.markdown-wiki-template` directory if you don't need this docume
 Download this repository to your local machine:
 
 ```shell
-git clone git@github.com:vsudakov/markdown-wiki-template.git
+git clone https://github.com/vsudakov/markdown-wiki-template.git
 ```
 
 ## Images
